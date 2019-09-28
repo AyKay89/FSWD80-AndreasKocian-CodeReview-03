@@ -1,0 +1,145 @@
+#header {
+	width: 100%;
+	height: 200px;
+	background-color: #FCEFEF;
+	display: inline-block;
+	}
+
+#logotop {
+	width:  300px;
+	height: 80px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 40px;
+	}
+
+#bannertop {
+	width:  850px;
+	height: 120px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+	}
+
+#navbartop {
+	width: 100%;
+	height:50px;
+	background-color: #800404;
+	}
+
+#navtext {
+	text-align: left;
+	color: white;
+	display: inline;
+	word-spacing: 15px;
+	font-size: 40px;
+	}
+
+#navbartop li {
+	list-style-type: none;
+	display: inline;
+	}
+
+#traffic {
+	width: 100%;
+	height: 100%;
+}
+
+.inputfield {
+	width: 80%;
+	height: 100%%;
+	background-color: lightgrey;
+	opacity: 0.5;
+	display: inline-block;
+	position: absolute;
+	left: 50px;
+	right: 50px;
+	top: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+h1 {
+	color: black;
+	font-size: 70px;
+}
+
+
+#textmiddle {
+	background-color: grey;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	margin-top: -5px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+
+
+	}
+
+#boxone {
+	width: 300px;
+	border: 1px solid grey;
+	border-top: 3px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	}	
+
+#boxtwo {
+	width: 300px;
+	border: 1px solid grey;
+	border-top: 3px solid black;
+	float: right;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+#footer {
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	}
+
+#imgfooter {
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	}
+
+
+#textfooter {
+	position: relative;
+	color: white;
+	text-align: center;
+	margin-bottom: -50px;
+	}
+
+#navbarbottom {
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	margin-bottom: -30px;
+	}
+
+#navbarbottom ul {
+	word-spacing: 25px;
+	padding-top: 20px;
+	}
+
+#navbarbottom li {
+	color: white;
+	display: inline;
+	font-size: 30px;
+	}
+
+@media (max-width: 600px) {
+  h1 {
+  	color: red;
+  }
+ 	}

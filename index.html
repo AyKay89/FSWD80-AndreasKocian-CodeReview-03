@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code Review 3 - Andreas Kocian</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<div>
+		<header id="header">
+			<div>
+				<img src="img/logo.png" alt="logo" id="logotop">
+			</div>
+			<div >
+				<img src="img/banner.png"  alt="banner" id="bannertop">
+			</div>
+		</header>
+	</div>
+	<div>
+		<nav id="navbartop">
+			<ul id="navtext">
+				<li><a href="" title="Home"></a>Home</li>
+				<li><a href="" title="Team"></a>Team</li>
+			</ul>
+		</nav>
+	</div>
+	<div >
+		<img src="img/traffic-332857_1920.jpg" alt="traffic" id="traffic">
+	</div>
+	<div id="textmiddle">
+		<h1>Un-complicating car coverage</h1>
+		<p>Understanding your coverage options shouldn't be so hard.<br>We'll guide you through available coverage types,<br> starting with who and what is covered.</p>
+	</div>
+	<div class="container">
+		<span id="boxone">
+			<h3>What comes standard</h3>
+			<p>The coverage you need</p>
+			<ul>
+				<li>Bodily Injury Liability</li>
+				<li>Property Damage</li>
+				<li>Medical Payments</li>
+			</ul>
+			<p><b>Benefits<b></p>
+			<p>12-month rate guarantee | 24/7 customer<br>service | Lifetime Repair Guarantee</p>
+		</span>
+		<span id="boxtwo">
+			<h3>Add-on protection & coverage</h3>
+			<p>For more peace of mind</p>
+			<ul>
+				<li>Better Car Replacement</li>
+				<li>Towing & Labor</li>
+				<li>Rental Car Coverage</li>
+			</ul>
+			<p><b>Earned Benefits</b></p>
+			<p>Accident Forgiveness | New Car<br>Replacement</p>
+		</span>
+	</div>
+	<div>
+		<nav id="navbarbottom">
+			<ul>
+				<li>Home</li>
+				<li>Team</li>
+			</ul>
+		</nav>
+	</div>
+	<div id="footer">
+		<footer>
+			<div >
+				<img id="imgfooter" src="img/logo-inv.png" alt="logo">
+			</div>
+			<div>
+				<p id="textfooter">Andreas Kocian - CodeFactory 2019</p>
+			</div>
+		</footer>
+	</div>
+	<div class="inputfield">
+		<h1>Great coverage begins<br>with a custom quote</h1>
+			<form>
+				<p>Your Name:</p><input type="text" name="name">
+				<p>Age:</p><input type="text" name="age" id="age">
+				<p>Country:</p>
+				<select name="country">
+					<option value="Austria" id="countryone">Austria</option>
+					<option value="Hungary" id="countrytwo">Hungary</option>
+					<option value="Greece" id="countrythree">Greece</option>
+				</select>
+				<p>Horsepower of your car:</p><input type="text" name="horsepower" id="horsepower"><br>
+				<input type="button" name="calculate" value="Calculate" onclick="document.getElementById('calculation').innerHTML = calculateInsurance()">
+				<p id='calculation'>Printed calculation goes here</p>
+			</form>
+	
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
