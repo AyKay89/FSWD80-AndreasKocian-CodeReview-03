@@ -117,7 +117,8 @@ h1 {
 	position: relative;
 	color: white;
 	text-align: center;
-	margin-bottom: -50px;
+	margin-bottom: -100px;
+	padding-top: 100px;
 	}
 
 #navbarbottom {

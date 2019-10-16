@@ -6,31 +6,30 @@
 
 // For Greece: insurance = horse_power x 150 / (age+3)  + 50;
 
+
+function calculateInsurance() {
+
 var country = ["Austria", "Hungary", "Greece"];
 
 var horsepower = document.getElementById("horsepower").value;
 var age = document.getElementById("age").value;
 
-var austria = document.getElementById("countryone");
-var hungary = document.getElementById("countrytwo");
-var greece = document.getElementById("countrythree");
+var austria = document.getElementById("inputfield");
+var hungary = document.getElementById("inputfield");
+var greece = document.getElementById("inputfield");
 
-var calculation = "";
 
-function calculateInsurance() {
-	if(austria=country[0]){
-		calculation = parseInt(horsepower * 100 / age + 50);
-		document.getElementById("calculation").innerHTML = "Your insurance costs " + calculation + " €.";
-		return document.getElementById("calculation");
+	if("Austria" == country[0]){
+		calculation = Number(horsepower) * 100 / Number(age) + 50;
+		document.getElementById("calculation").innerHTML = "Your insurance costs " + Math.round(calculation) + " €.";
 	} else
-	if(hungary=country[1]{
-		calculation = parseInt(horsepower *120 / age + 100);
-		document.getElementById("calculation").innerHTML = "Your insurance costs " + calculation + " €.";
-		return document.getElementById("calculation");
+	if("Hungary" == country[1]){
+		calculation = Number(horsepower) * 120 / Number(age)+ 100;
+		document.getElementById("calculation").innerHTML = "Your insurance costs " + Math.round(calculation) + " €.";
 	} else
-	if(greece=country[2]{
-		calculation = parseInt(horsepower *120 / age + 100);
-		document.getElementById("calculation").innerHTML = "Your insurance costs " + calculation + " €.";
-		return document.getElementById("calculation");
+	("Greece" == country[2])
+		calculation = Number(horsepower) * 150 / (Number(age) +3) + 100;
+		document.getElementById("calculation").innerHTML = "Your insurance costs " + Math.round(calculation) + " €.";
 	}
-}
+
+
